@@ -35,6 +35,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "currency-formatter",
+              "toastr",
+              "chart.js"],
             "aot": true,
             "outputPath": "dist/sysfinan",
             "index": "src/index.html",
@@ -57,8 +61,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/chart.js/dist/Chart.bundle.js"
-            ],
-            "es5BrowserSupport": true
+            ]
           },
           "configurations": {
             "production": {
