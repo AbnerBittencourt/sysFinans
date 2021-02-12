@@ -35,6 +35,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/sysfinan",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -49,7 +50,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/toastr/build/toastr.min.css",
               "node_modules/primeicons/primeicons.css",
-              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
               "node_modules/primeng/resources/primeng.min.css"
             ],
             "scripts": [
@@ -81,6 +82,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
