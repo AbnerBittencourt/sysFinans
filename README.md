@@ -1,27 +1,30 @@
-# Sysfinan
+# sysFinans
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.10.
+This project was built with Angular 11, and simulates a finance system with registration of entries and categories, with demonstration of graphs of income and expenses and with research of this data by month and year.
 
-## Development server
+PT_BR => Este projeto foi construído com o Angular 11, e simula uma sistema de finanças com cadastro de lançamentos e categorias, com demonstração de gráficos das receitas e despesas e com pesquisa desses dados por mês e ano.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Initializing server
 
-## Code scaffolding
+Run `ng s` at the terminal and browse to `http://localhost:4200/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## sysFinan in operation
 
-## Build
+<div align="center" >
+  <img src="./github/pag.gif" alt="home" height="425">
+  <img src="./github/pag1.gif" alt="entries" height="425">
+</div>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies
 
-## Running unit tests
+PT_BR => Esse projeto foi desenvolvido com as seguintes tecnologias: <br>
+EN => This project was developed with the following technologies:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- ✔️ HTML5
 
-## Running end-to-end tests
+- ✔️ Javascript
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- ✔️ Angular 11
 
-## Further help
+- ✔️ In Memory Web API
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
